@@ -8,7 +8,7 @@ class Processo:
         self.tempo_conclusao = 0
         self.tempo_espera = 0
         self.tempo_resposta = 0
-        self.tempo_vida = 0  # Adicionado: Tempo de vida do processo
+        self.tempo_vida = 0 
 
 
 def escalonamento_rr(processos, quantum, tempo_troca_contexto=0):
